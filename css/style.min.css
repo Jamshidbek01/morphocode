@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/titillium-web-v15-latin-regular.woff2') format('woff2'), url('../fonts/titillium-web-v15-latin-regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Sailec-Bold';
+    src: url('../fonts/Sailec-Bold.woff2') format('woff2'), url('../fonts/Sailec-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+.container {
+    width: 100%;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px
+}
+
+.main {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.header {
+    padding: 29px 0
+}
+
+.header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.list-item {
+    padding: 0 22px
+}
+
+.nav-link {
+    font-family: 'Sailec-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: .25px;
+    color: rgba(102, 102, 102, .85)
+}
+
+.hero-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.hero-image img {
+    width: 550px
+}
+
+.hero-title {
+    font-family: 'Sailec-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: .25px;
+    color: #4a4a4a;
+    margin-top: 130px;
+    margin-bottom: 20px
+}
+
+.hero-text {
+    width: 512px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #434a54
+}
+
+.sect-2-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sect-2-image {
+    margin-right: 25px
+}
+
+.title {
+    margin-top: 180px;
+    font-family: 'Sailec-Bold';
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: .25px;
+    color: #4a4a4a;
+    margin-bottom: 15px
+}
+
+.text {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #434a54;
+    margin-bottom: 28px;
+    width: 458px
+}
+
+.btn a {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: .25px;
+    color: #1d6ff3
+}
+
+.sect-3-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sect-3-image {
+    margin-left: 30px
+}
+
+.sect-3-image img {
+    width: 550px
+}
+
+.mb {
+    width: 500px;
+    margin-bottom: 59px
+}
+
+.blog-container {
+    margin-bottom: 100px
+}
+
+.blog-title {
+    font-family: 'Sailec-Bold';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: .25px;
+    color: #4a4a4a;
+    margin-bottom: 12px
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 55px
+}
+
+.card {
+    margin-right: 30px
+}
+
+.card-img img {
+    width: 330px;
+    height: 186px;
+    z-index: -1;
+    position: relative
+}
+
+.card-info {
+    z-index: 999;
+    padding: 20px;
+    margin-top: -58px;
+    width: 280px;
+    background-color: #fff;
+    margin-left: 25px
+}
+
+.card-title {
+    font-family: 'Sailec-Bold';
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: .25px;
+    color: #4a4a4a;
+    margin-bottom: 15px
+}
+
+.card-text {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #434a54
+}
+
+.start {
+    background-color: #eee;
+    padding: 80px 0
+}
+
+.start-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.start-info {
+    margin-right: 120px
+}
+
+.mt {
+    margin-top: 0
+}
+
+.start-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.start-form input {
+    padding: 20px;
+    width: 300px;
+    height: 42px;
+    position: relative
+}
+
+.form-btn {
+    position: absolute;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 41px;
+    letter-spacing: .25px;
+    color: #fff;
+    padding: 0 22px;
+    background: #1d6ff3;
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 0 4px 4px 0
+}
+
+input::-webkit-input-placeholder {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    color: #979797
+}
+
+input::-moz-placeholder {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    color: #979797
+}
+
+input:-ms-input-placeholder {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    color: #979797
+}
+
+input::-ms-input-placeholder {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    color: #979797
+}
+
+input::placeholder {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    color: #979797
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 100px
+}
+
+.footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.min-title {
+    font-family: 'Sailec-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    margin-bottom: 19px
+}
+
+.footer-nav ul li a {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .25px;
+    color: #637280;
+    margin-bottom: 10px
+}
+
+.line {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 0;
+    width: 30px;
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 17px
+}
+
+.networks {
+    gap: 20px
+}
